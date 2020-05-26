@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/we-play-dota2/static/css/main.5f361e03.chunk.css",
-    "main.js": "/we-play-dota2/static/js/main.13331ef6.chunk.js",
-    "main.js.map": "/we-play-dota2/static/js/main.13331ef6.chunk.js.map",
-    "runtime-main.js": "/we-play-dota2/static/js/runtime-main.ff75c69a.js",
-    "runtime-main.js.map": "/we-play-dota2/static/js/runtime-main.ff75c69a.js.map",
-    "static/js/2.82bdd1b4.chunk.js": "/we-play-dota2/static/js/2.82bdd1b4.chunk.js",
-    "static/js/2.82bdd1b4.chunk.js.map": "/we-play-dota2/static/js/2.82bdd1b4.chunk.js.map",
-    "index.html": "/we-play-dota2/index.html",
-    "precache-manifest.830173ed990b19db48fd8bbe658f57ad.js": "/we-play-dota2/precache-manifest.830173ed990b19db48fd8bbe658f57ad.js",
-    "service-worker.js": "/we-play-dota2/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/we-play-dota2/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.82bdd1b4.chunk.js.LICENSE.txt": "/we-play-dota2/static/js/2.82bdd1b4.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/we-play-dota2/static/media/logo.5d5d9eef.svg"
+    "main.css": "/we-play-dota/static/css/main.ca486afc.chunk.css",
+    "main.js": "/we-play-dota/static/js/main.d2c4a01c.chunk.js",
+    "main.js.map": "/we-play-dota/static/js/main.d2c4a01c.chunk.js.map",
+    "runtime-main.js": "/we-play-dota/static/js/runtime-main.7a36c1ae.js",
+    "runtime-main.js.map": "/we-play-dota/static/js/runtime-main.7a36c1ae.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/we-play-dota/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.6c4725af.chunk.js": "/we-play-dota/static/js/2.6c4725af.chunk.js",
+    "static/js/2.6c4725af.chunk.js.map": "/we-play-dota/static/js/2.6c4725af.chunk.js.map",
+    "index.html": "/we-play-dota/index.html",
+    "precache-manifest.f217c0becbdfd1227d40da0aa0c5a9cc.js": "/we-play-dota/precache-manifest.f217c0becbdfd1227d40da0aa0c5a9cc.js",
+    "service-worker.js": "/we-play-dota/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/we-play-dota/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.ca486afc.chunk.css.map": "/we-play-dota/static/css/main.ca486afc.chunk.css.map",
+    "static/js/2.6c4725af.chunk.js.LICENSE.txt": "/we-play-dota/static/js/2.6c4725af.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff75c69a.js",
-    "static/js/2.82bdd1b4.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.13331ef6.chunk.js"
+    "static/js/runtime-main.7a36c1ae.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.6c4725af.chunk.js",
+    "static/css/main.ca486afc.chunk.css",
+    "static/js/main.d2c4a01c.chunk.js"
   ]
 }
