@@ -1,0 +1,16 @@
+.col-card {
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  width: fit-content;
+}
+
+.card {
+  min-height: 100px;
+  justify-content: center;
+}
+
+.input-row {
+  max-width: max-content;
+}

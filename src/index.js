@@ -1,13 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import { Provider } from 'react-redux';
+import configureStore from './store';
+import { loadState, saveState } from './utils/localStorage';
+import { createBrowserHistory } from 'history';
+
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const history = createBrowserHistory();
+const initialState = loadState() || {};
+const store = configureStore(initialState, history);
+// const store = configureStore();
+
+store.subscribe(() => {
+  // if user was logged in, keep the login details
+  // const { loginReducer } = store.getState();
+  // if (loginReducer) saveState({ loginReducer });
+});
+
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
 
