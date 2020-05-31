@@ -15,9 +15,13 @@ import {
   FormControl,
   Button,
 } from 'react-bootstrap';
+import ModalComponent from '../../components/Modal';
 
 class LeaguePage extends React.Component {
-  state = {};
+  state = {
+    modalShow: false,
+    matchDetail: false,
+  };
 
   componentDidMount() {
     const { fetchAllItems } = this.props;
@@ -36,6 +40,8 @@ class LeaguePage extends React.Component {
     );
 
     const leagueName = filteredItems[0]?.league_name;
+
+    console.log(filteredItems, 'filteredItems');
 
     return (
       <>
@@ -68,7 +74,12 @@ class LeaguePage extends React.Component {
                 key={item.match_id}
                 className="col-card"
               >
-                <Card className="card" onClick={() => console.log('hello')}>
+                <Card
+                  className="card"
+                  onClick={() =>
+                    this.setState({ modalShow: true, matchDetail: item })
+                  }
+                >
                   <Card.Title>
                     {`${item.dire_name} vs ${item.radiant_name}`}
                   </Card.Title>
@@ -77,6 +88,11 @@ class LeaguePage extends React.Component {
             ))}
           </Row>
         </Container>
+        <ModalComponent
+          show={this.state.modalShow}
+          onHide={() => this.setState({ modalShow: false })}
+          matchDetail={this.state.matchDetail}
+        />
       </>
     );
   }
